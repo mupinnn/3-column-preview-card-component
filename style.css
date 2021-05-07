@@ -40,8 +40,79 @@ body {
   background-color: var(--clr-darker-cyan);
 }
 
-/* Card */
+.text-orange {
+  color: var(--clr-orange);
+}
 
+.text-dark-cyan {
+  color: var(--clr-dark-cyan);
+}
+
+.text-darker-cyan {
+  color: var(--clr-darker-cyan);
+}
+
+/* Card */
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.card-group > .card {
+  width: 100%;
+  padding: 2.5rem;
+  color: var(--clr-white-75);
+}
+
+.card:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card__header {
+  margin-bottom: 1.5rem;
+}
+
+.card__header .icon {
+  width: 54px;
+  height: 34px;
+  margin-bottom: 1.5rem;
+}
+
+.card__header h4 {
+  color: var(--clr-light-gray);
+  font-size: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.card__body p {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background-color: var(--clr-light-gray);
+  border: 1px solid var(--clr-light-gray);
+  border-radius: 10rem;
+  transition: all 0.15s ease;
+  transition-property: color, background-color;
+}
+
+.btn.active,
+.btn:hover,
+.btn:focus {
+  color: var(--clr-white-75);
+  background-color: transparent;
+  cursor: pointer;
+}
 /* End of Card */
 
 /* Attribution */
