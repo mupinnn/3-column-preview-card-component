@@ -16,10 +16,20 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-light-gray);
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
 }
 
+/* Card */
+
+/* End of Card */
+
+/* Attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -28,3 +38,4 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* End of Attribution */
