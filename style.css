@@ -17,12 +17,27 @@
 
 body {
   min-height: 100vh;
+  padding: 2rem 1.5rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--clr-light-gray);
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
+}
+
+/* Utilities */
+.bg-orange {
+  background-color: var(--clr-orange);
+}
+
+.bg-dark-cyan {
+  background-color: var(--clr-dark-cyan);
+}
+
+.bg-darker-cyan {
+  background-color: var(--clr-darker-cyan);
 }
 
 /* Card */
